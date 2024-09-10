@@ -1,0 +1,19 @@
+{
+    "index.html": {
+        "description": "HTML file that interacts with JavaScript",
+        "dependencies": {
+            "index.js": [
+                "obtainToken"
+            ]
+        },
+        "exposes": []
+    },
+    "index.js": {
+        "description": "File handles obtaining tokens using REST API",
+        "dependencies": {},
+        "exposes": [
+            "obtainToken1",
+            "obtainToken"
+        ]
+    }
+}
